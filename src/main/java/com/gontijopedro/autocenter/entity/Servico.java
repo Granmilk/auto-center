@@ -8,7 +8,7 @@ public class Servico {
     @Id
     @GeneratedValue (strategy = GenerationType.IDENTITY)
     @Column (name = "id_servico")
-    private Long idServiço;
+    private Long idServico;
 
     @Column (name ="descricao")
     private String descricao;
@@ -17,11 +17,11 @@ public class Servico {
     private Double valor;
 
     public Long getIdServiço() {
-        return idServiço;
+        return idServico;
     }
 
-    public void setIdServiço(Long idServiço) {
-        this.idServiço = idServiço;
+    public void setIdServiço(Long idServico) {
+        this.idServico = idServico;
     }
 
     public String getDescricao() {
